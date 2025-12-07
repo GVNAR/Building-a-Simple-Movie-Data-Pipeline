@@ -1,6 +1,3 @@
--- ============================================
--- Task 5: Analytical SQL Queries
--- ============================================
 
 -- 1️⃣ Which movie has the highest average rating?
 SELECT 
