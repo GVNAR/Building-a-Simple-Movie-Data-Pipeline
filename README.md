@@ -22,7 +22,13 @@ It extracts data from local CSV files (movies.csv and ratings.csv), enriches the
 
 
 
-1️. Clone or Open the Project Make sure you have this folder structure: movie-pipeline/ ├── etl.py ├── schema.sql ├── queries.sql  └── README.md
+1️. Clone or Open the Project Make sure you have this folder structure: 
+movie-pipeline/
+├── etl.py
+├── schema.sql
+├── queries.sql
+├── requirements.txt
+└── README.md
 
 
 
@@ -132,19 +138,30 @@ password:**gvnar@007**
 
 ------------------
 
-###### Problem                           Solution
+###### Problem                            
 
------------                                 ------------
+-----------                                
 
-->Some movies not found in OMDb           -> Logged them in missing\_movies.csv and added fallback data
+->Some movies not found in OMDb          
 
-->API or network errors                   -> Used try-except for safe handling
+->API or network errors                  
 
-->Data type mismatches                    -> Explicitly converted IDs and years to integers
+->Data type mismatches                   
 
-->Foreign key errors                      -> Disabled FK checks during table truncation
+->Foreign key errors                     
 
+---------------------------
 
+###### Solution
 
+---------------
+
+-> Logged them in missing\_movies.csv and added fallback data
+
+-> Used try-except for safe handling
+
+-> Explicitly converted IDs and years to integers
+
+-> Disabled FK checks during table trunca
 
 
