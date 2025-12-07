@@ -1,6 +1,6 @@
 # Building-a-Simple-Movie-Data-Pipeline
 
-Movie ETL Pipeline (Python + MySQL)
+## Movie ETL Pipeline (Python + MySQL)
 
 Overview
 
