@@ -1,8 +1,8 @@
 # Building-a-Simple-Movie-Data-Pipeline
 
-## Movie ETL Pipeline (Python + MySQL)
+# Movie ETL Pipeline (Python + MySQL)
 
-Overview
+# Overview
 
 This project is a simple ETL (Extract, Transform, Load) pipeline built using Python and MySQL.
 
@@ -10,7 +10,7 @@ It extracts data from local CSV files (movies.csv and ratings.csv), enriches the
 
 
 
-Setup Instructions
+# Setup Instructions
 
 
 1️. Clone or Open the Project Make sure you have this folder structure: movie-pipeline/ ├── etl.py ├── schema.sql ├── queries.sql  └── README.md
@@ -45,7 +45,7 @@ password:**gvnar@007**
 
 =======================================================================================================================
 
-Database Design:
+# Database Design:
 
 ----------------
 
@@ -63,7 +63,7 @@ movie\_genres → Stores genres for each movie
 
 =============================================================================================================================
 
-Design Choices \& Assumptions
+# Design Choices \& Assumptions
 ----------------------------
 
 ->Used OMDb API to enrich movies with metadata like director and plot.
@@ -76,7 +76,7 @@ Design Choices \& Assumptions
 
 =================================================================================================================================
 
-Challenges Faced:
+# Challenges Faced:
 ------------------
 
 Problem                                    Solution
