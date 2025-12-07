@@ -27,7 +27,6 @@ movie-pipeline/
 ├── etl.py
 ├── schema.sql
 ├── queries.sql
-├── requirements.txt
 └── README.md
 
 
@@ -163,5 +162,6 @@ password:**gvnar@007**
 -> Explicitly converted IDs and years to integers
 
 -> Disabled FK checks during table trunca
+
 
 
